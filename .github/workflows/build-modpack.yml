@@ -1,0 +1,22 @@
+name: "Build modpack"
+on:
+  push:
+    paths:
+      - '**.toml'
+  workflow_dispatch:
+
+jobs:
+  build-modpack:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: cachix/install-nix-action@v21
+        with:
+          extra_nix_config: |
+            access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
+      - run: |
+          nix develop --command \
+            packwiz curseforge export
+      - uses: actions/upload-artifact@v3
+        with:
+          path: '*.zip'
