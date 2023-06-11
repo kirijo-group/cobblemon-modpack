@@ -1,0 +1,13 @@
+name = "LostMons [Cobblemon]"
+filename = "LostMons [Cobblemon] v0.4.1.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/isWGaSnM/versions/ZMJNfNwP/LostMons%20%5BCobblemon%5D%20v0.4.1.zip"
+hash-format = "sha1"
+hash = "1876fafb700411573347ec532e4a48aeeb1cf5b2"
+
+[update]
+[update.modrinth]
+mod-id = "isWGaSnM"
+version = "ZMJNfNwP"

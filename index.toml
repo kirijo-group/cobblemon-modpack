@@ -1,6 +1,21 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/paxi/datapacks/legendary-encounters(cobblemon).pw.toml"
+hash = "13809544a80433dd8f8c9d33cdb185328b95c5ecb8e51e8ac49a0efa3fa46e34"
+metafile = true
+
+[[files]]
+file = "config/paxi/datapacks/lostmons-cobblemon.pw.toml"
+hash = "1cb6d69a02f699dd837d38b9c7711df1f5e9bb956da1b485f3c9586cbb91643d"
+metafile = true
+
+[[files]]
+file = "config/paxi/datapacks/shinier-shinies.pw.toml"
+hash = "bbe996ae910f405dcf05b71f0a88ee508b8861ad2c425fa323b4ae5f56e141ae"
+metafile = true
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "b25059cd43f681fbd3447f29d355eda0ede4800b3b11cb680ca2889a92be180f"
 metafile = true
