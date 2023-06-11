@@ -49,3 +49,8 @@ metafile = true
 file = "mods/yungs-api-fabric.pw.toml"
 hash = "53d39e1a673ca6059ca9da17125c74e91f7ee32ff0400cfc4295f1a4703c64a0"
 metafile = true
+
+[[files]]
+file = "resourcepacks/moremons.pw.toml"
+hash = "593513f46449186b4bba6fa7f0180ca698b4ec72814b9d50d9c420c35e645f0f"
+metafile = true
