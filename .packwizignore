@@ -1,0 +1,5 @@
+.direnv/
+.github/
+.envrc
+flake.lock
+flake.nix
