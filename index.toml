@@ -1,0 +1,31 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "b25059cd43f681fbd3447f29d355eda0ede4800b3b11cb680ca2889a92be180f"
+metafile = true
+
+[[files]]
+file = "mods/badpackets.pw.toml"
+hash = "d9023cc86074ad3e3fec8a7a5ec8ad456fcac04ebd1342ff803d0551fa7d8e56"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon.pw.toml"
+hash = "8850dea89bc4bb859461c3c03a77090e494ea7ddb7a5dc8e6bebad8df38cf0a1"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "8d1e45cdea6bb16c53496bc3b4d3504c933075c73084d294f8a57387f71e6d8b"
+metafile = true
+
+[[files]]
+file = "mods/jei.pw.toml"
+hash = "21cceb4060820c38c62597e0d12ea231e9ad2410f329c8e68d2df46856d1695a"
+metafile = true
+
+[[files]]
+file = "mods/wthit.pw.toml"
+hash = "a0f9ef83cc6e8b0e132bb8bebbf2c545f7eb33d3e613a33e590be6784a375fc6"
+metafile = true
