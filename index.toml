@@ -26,6 +26,11 @@ hash = "21cceb4060820c38c62597e0d12ea231e9ad2410f329c8e68d2df46856d1695a"
 metafile = true
 
 [[files]]
+file = "mods/paxi-fabric.pw.toml"
+hash = "5d674c0a1cc601b03eb9e2a63d2e20e5204e2f7a9d0631422f9cc734db72ce4e"
+metafile = true
+
+[[files]]
 file = "mods/wthit.pw.toml"
 hash = "a0f9ef83cc6e8b0e132bb8bebbf2c545f7eb33d3e613a33e590be6784a375fc6"
 metafile = true
@@ -38,4 +43,9 @@ metafile = true
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
 hash = "6016d6fd65636650a485a060b52dc58b0c9d2faaac81177aba80dea8953e5138"
+metafile = true
+
+[[files]]
+file = "mods/yungs-api-fabric.pw.toml"
+hash = "53d39e1a673ca6059ca9da17125c74e91f7ee32ff0400cfc4295f1a4703c64a0"
 metafile = true
