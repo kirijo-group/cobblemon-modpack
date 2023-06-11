@@ -29,3 +29,13 @@ metafile = true
 file = "mods/wthit.pw.toml"
 hash = "a0f9ef83cc6e8b0e132bb8bebbf2c545f7eb33d3e613a33e590be6784a375fc6"
 metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap.pw.toml"
+hash = "26607b7008175d777a6aa9f8a1ec6764b6b356e616e466ae622243647a8c249a"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "6016d6fd65636650a485a060b52dc58b0c9d2faaac81177aba80dea8953e5138"
+metafile = true
