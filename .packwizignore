@@ -1,5 +1,6 @@
 .direnv/
 .github/
+tools/
 .envrc
 flake.lock
 flake.nix

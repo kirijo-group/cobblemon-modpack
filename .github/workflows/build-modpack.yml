@@ -4,19 +4,40 @@ on:
     paths:
       - '**.toml'
   workflow_dispatch:
+  release:
+    types: 
+      - published
 
 jobs:
   build-modpack:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: nix develop --command bash {0}
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v3
       - uses: cachix/install-nix-action@v21
         with:
           extra_nix_config: |
             access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
-      - run: |
-          nix develop --command \
-            packwiz curseforge export
+      - run: packwiz curseforge export
       - uses: actions/upload-artifact@v3
         with:
           path: '*.zip'
+      - if: github.event_name == 'release'
+        id: gen_release_notes
+        run: |
+          r=$(python3.11 tools/gen-release.py)
+          r="${r//'%'/'%25'}"
+          r="${r//$'\n'/'%0A'}"
+          r="${r//$'\r'/'%0D'}"
+          echo "RELEASE_BODY=$r" >> $GITHUB_OUTPUT
+      - if: github.event_name == 'release'
+        uses: svenstaro/upload-release-action@v2
+        with:
+          file: '*.zip'
+          file_glob: true
+          overwrite: true
+          body: ${{ steps.gen_release_notes.outputs.RELEASE_BODY }}
