@@ -3,3 +3,4 @@
 .envrc
 flake.lock
 flake.nix
+README.md
