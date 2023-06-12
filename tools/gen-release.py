@@ -6,17 +6,14 @@ with open("index.toml", "rb") as f:
 with open("pack.toml", "rb") as f:
     pack = tomllib.load(f)
 
-mods = []
+mods = {}
 for mod_file in index["files"]:
     with open(mod_file["file"], "rb") as f:
         mod_file = tomllib.load(f)
-    mods.append({
-        "name": mod_file["name"],
-        "filename": mod_file["filename"]
-    })
+    mods[mod_file["name"]] = mod_file["filename"]
 
 print(f"Supported Minecraft version: {pack['versions']['minecraft']}\n");
 print("Included mods:")
-mods = sorted(mods, key=lambda mod: mod["name"])
-for mod in mods:
-    print(f"{mod['name']} (`{mod['filename']}`)")
+mods = dict(sorted(mods.items()))
+for k, v in mods.items():
+    print(f"- {k} (`{v}`)")
