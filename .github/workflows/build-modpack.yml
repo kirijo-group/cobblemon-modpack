@@ -3,6 +3,8 @@ on:
   push:
     paths:
       - '**.toml'
+    tags-ignore:
+      - '*'
   workflow_dispatch:
   release:
     types: 
