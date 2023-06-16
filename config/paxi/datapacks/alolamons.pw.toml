@@ -1,0 +1,13 @@
+name = "AlolaMons"
+filename = "AlolaMons_v1.1.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Oi0Vgvgn/versions/7XywXz0e/AlolaMons_v1.1.zip"
+hash-format = "sha1"
+hash = "d62e4a32d7f40ed4bed4b899b5b65dcae1173bab"
+
+[update]
+[update.modrinth]
+mod-id = "Oi0Vgvgn"
+version = "7XywXz0e"

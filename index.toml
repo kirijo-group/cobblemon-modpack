@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/paxi/datapacks/alolamons.pw.toml"
+hash = "23437c1fa5eef4d24d12e4208a0c614cb29e467b3a92ea54e902c737a2f6536f"
+metafile = true
+
+[[files]]
 file = "config/paxi/datapacks/legendary-encounters(cobblemon).pw.toml"
 hash = "13809544a80433dd8f8c9d33cdb185328b95c5ecb8e51e8ac49a0efa3fa46e34"
 metafile = true
@@ -13,6 +18,11 @@ metafile = true
 [[files]]
 file = "config/paxi/datapacks/moremons.pw.toml"
 hash = "593513f46449186b4bba6fa7f0180ca698b4ec72814b9d50d9c420c35e645f0f"
+metafile = true
+
+[[files]]
+file = "config/paxi/datapacks/mysticmons.pw.toml"
+hash = "184d771c6efc3164c100eafab7aa76878e95929133629b0bc8ce92bfd4028bd3"
 metafile = true
 
 [[files]]
