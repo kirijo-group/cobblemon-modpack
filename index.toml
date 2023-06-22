@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/paxi/datapacks/alolamons.pw.toml"
-hash = "23437c1fa5eef4d24d12e4208a0c614cb29e467b3a92ea54e902c737a2f6536f"
+hash = "e532a74c1884f48c8ea919fc37d0721e1099456e9c86f5a08bfa2e12ef952cba"
 metafile = true
 
 [[files]]
@@ -22,7 +22,7 @@ metafile = true
 
 [[files]]
 file = "config/paxi/datapacks/mysticmons.pw.toml"
-hash = "184d771c6efc3164c100eafab7aa76878e95929133629b0bc8ce92bfd4028bd3"
+hash = "9c8b3e2e25a116e7ac81cb14a8da9455c6df3cf39658687cc0e41e5cc068b1d8"
 metafile = true
 
 [[files]]
@@ -77,12 +77,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "26607b7008175d777a6aa9f8a1ec6764b6b356e616e466ae622243647a8c249a"
+hash = "d09b43106fb6b4df2db91dc2d72195535148e2845768bd1b786c09e12d0801d4"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "6016d6fd65636650a485a060b52dc58b0c9d2faaac81177aba80dea8953e5138"
+hash = "21ca1ada7fcfa709b334192d409af80ef54fad572c3290a95b3daef5293ecb26"
 metafile = true
 
 [[files]]

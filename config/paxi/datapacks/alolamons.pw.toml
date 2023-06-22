@@ -1,13 +1,13 @@
 name = "AlolaMons"
-filename = "AlolaMons_v1.1.zip"
+filename = "AlolaMons_v1.2.zip"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/Oi0Vgvgn/versions/7XywXz0e/AlolaMons_v1.1.zip"
+url = "https://cdn.modrinth.com/data/Oi0Vgvgn/versions/Dpv9Azi0/AlolaMons_v1.2.zip"
 hash-format = "sha1"
-hash = "d62e4a32d7f40ed4bed4b899b5b65dcae1173bab"
+hash = "84c6ceec7100d02d68446e58924da16053837e16"
 
 [update]
 [update.modrinth]
 mod-id = "Oi0Vgvgn"
-version = "7XywXz0e"
+version = "Dpv9Azi0"
