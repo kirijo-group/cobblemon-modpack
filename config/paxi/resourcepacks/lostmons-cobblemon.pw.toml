@@ -1,6 +1,6 @@
 name = "LostMons [Cobblemon]"
 filename = "LostMons [Cobblemon] v0.4.2.zip"
-side = "server"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/isWGaSnM/versions/cnlS14Kp/LostMons%20%5BCobblemon%5D%20v0.4.2.zip"

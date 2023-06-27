@@ -1,6 +1,6 @@
 name = "Legendary Encounters (Cobblemon)"
 filename = "Legendary_Encounters!.zip"
-side = "server"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/pnBtlkdI/versions/4lvGYFcN/Legendary_Encounters%21.zip"

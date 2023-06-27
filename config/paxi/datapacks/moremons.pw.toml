@@ -1,6 +1,6 @@
 name = "MoreMons [Cobblemon]"
 filename = "MoreMons_v0.4.1.zip"
-side = "client"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/79zyF4nY/versions/D6ky1gSQ/MoreMons_v0.4.1.zip"

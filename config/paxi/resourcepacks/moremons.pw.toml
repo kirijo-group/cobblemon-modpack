@@ -1,1 +1,13 @@
-../datapacks/moremons.pw.toml
+name = "MoreMons [Cobblemon]"
+filename = "MoreMons_v0.4.1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/79zyF4nY/versions/D6ky1gSQ/MoreMons_v0.4.1.zip"
+hash-format = "sha1"
+hash = "dacab660a6085f762e227e778e317d9e21be8868"
+
+[update]
+[update.modrinth]
+mod-id = "79zyF4nY"
+version = "D6ky1gSQ"

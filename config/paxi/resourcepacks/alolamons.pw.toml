@@ -1,6 +1,6 @@
 name = "AlolaMons"
 filename = "AlolaMons_v1.2.zip"
-side = "server"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/Oi0Vgvgn/versions/Dpv9Azi0/AlolaMons_v1.2.zip"

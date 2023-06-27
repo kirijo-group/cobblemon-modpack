@@ -1,6 +1,6 @@
 name = "Shinier Shinies"
 filename = "Shinier Shinies v1.1 [1.19.2-v1.3+].zip"
-side = "server"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/aXZALOTh/versions/Lw4ffI72/Shinier%20Shinies%20v1.1%20%5B1.19.2-v1.3%2B%5D.zip"
