@@ -1,12 +1,15 @@
 name: "Build modpack"
 on:
   push:
-    paths:
-      - '**.toml'
+    paths-ignore:
+      - '.envrc'
+      - '.gitattributes'
+      - '.gitignore'
+      - '**.md'
     branches:
-    - '**'
+      - '**'
     tags-ignore:
-      - '*'
+      - '**'
   workflow_dispatch:
   release:
     types: 
